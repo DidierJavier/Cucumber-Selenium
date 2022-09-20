@@ -1,0 +1,96 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "# language: es"
+      },
+      {
+        "line": 2,
+        "value": "# Tags: optional"
+      }
+    ],
+    "line": 4,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3841560200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Ingresar a la categoría comics desde la pantalla home",
+        "description": "",
+        "id": "categoria-comics;ingresar-a-la-categoría-comics-desde-la-pantalla-home",
+        "after": [
+          {
+            "result": {
+              "duration": 876600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 143532400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "que el usuario se encuentra en el home de imalittletsrs",
+            "match": {
+              "location": "TestClass.que_el_usuario_se_encuentra_en_el_home_de_imalittletsrs()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 818562300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "hace click sobre el boton de little tester comics",
+            "match": {
+              "location": "TestClass.hace_click_sobre_el_boton_de_little_tester_comics()"
+            },
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 774768400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "se debe redirigir a la pantalla comics",
+            "match": {
+              "location": "TestClass.se_debe_redirigir_a_la_pantalla_comics()"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "line": 15,
+            "name": "@browser"
+          }
+        ]
+      }
+    ],
+    "name": "Categoria comics",
+    "description": "Como usuario\r\nquiero leer chistes de testers\r\npara reirme y pasar un buen rato",
+    "id": "categoria-comics",
+    "keyword": "Característica",
+    "uri": "src/test/java/features/test.feature"
+  }
+]

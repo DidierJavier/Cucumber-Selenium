@@ -1,0 +1,30 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.9.0'
+    testCompileOnly 'junit:junit:4.13.2'
+    testRuntimeOnly 'org.junit.vintage:junit-vintage-engine'
+    // https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
+    implementation 'org.seleniumhq.selenium:selenium-java:4.3.0'
+    // https://mvnrepository.com/artifact/info.cukes/cucumber-java
+    implementation 'info.cukes:cucumber-java:1.2.6'
+    // https://mvnrepository.com/artifact/info.cukes/cucumber-jvm-deps
+    compileOnly 'info.cukes:cucumber-jvm-deps:1.0.5'
+    // https://mvnrepository.com/artifact/info.cukes/cucumber-junit
+    testImplementation 'info.cukes:cucumber-junit:1.2.6'
+    // https://mvnrepository.com/artifact/com.vimalselvam/cucumber-extentsreport
+    implementation 'com.vimalselvam:cucumber-extentsreport:3.1.1'
+    // https://mvnrepository.com/artifact/com.aventstack/extentreports
+    implementation 'com.aventstack:extentreports:3.1.1'
+}
+
+

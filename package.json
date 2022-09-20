@@ -1,0 +1,17 @@
+{
+  "name": "cucumber-selenium_1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "report": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "checking": "^1.0.1",
+    "installable": "^0.2.8",
+    "multiple-cucumber-html-reporter": "^1.16.1",
+    "status": "^0.0.13"
+  }
+}
